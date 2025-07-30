@@ -1,1 +1,27 @@
-# Flutter project configuration
+name: sparks
+description: A bright and bold dating app built with Flutter 💖💙
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.7.2
+  cloud_firestore: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
